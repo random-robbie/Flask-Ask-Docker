@@ -20,5 +20,6 @@ ADD ngrok.yml /root/ngrok.yml
 ADD entrypoint.sh ./entrypoint.sh
 RUN chmod 777 entrypoint.sh
 COPY supervisord.conf /etc/supervisor/supervisord.conf
-EXPOSE 5000 4040
+EXPOSE 5000 
+EXPOSE 4040
 ENTRYPOINT ["./entrypoint.sh"]
