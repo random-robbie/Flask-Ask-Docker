@@ -15,5 +15,16 @@ Nrok has the web interface enabled so you can get the endpoint it's connecting t
 Ensure you firewall off that!
 
 
+Build and Run:
+----
+```
+docker build -t spacegeek .
+```
+
+```
+docker run -d -p 5000:5000 -p 4040 spacegeek:latest
+```
+
+
 
 
