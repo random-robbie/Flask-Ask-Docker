@@ -1,6 +1,6 @@
 # Flask-Ask-Docker
 
-[logo]: https://cdn3.techadvisor.co.uk/cmsdata/features/3660854/how-to-use-alexa_thumb800.jpg "Alexa Logo"
+![Alexa Logo](https://cdn3.techadvisor.co.uk/cmsdata/features/3660854/how-to-use-alexa_thumb800.jpg)
 
 Flask-Ask Docker container with sample app that will automatically connect ngrok for use as an alexa skill
 
