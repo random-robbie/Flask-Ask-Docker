@@ -25,6 +25,11 @@ docker build -t spacegeek .
 docker run -d -p 5000:5000 -p 4040 spacegeek:latest
 ```
 
+Reminder
+----
+
+Remember to change the Dockerfile copy and entrypoint when making your own app.
+
 
 
 
