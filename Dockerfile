@@ -15,7 +15,7 @@ RUN set -x \
  && rm -f /ngrok.zip
 WORKDIR /
 COPY . /spacegeek/
-RUN pip install flask flask-ask
+RUN pip install flask flask-ask requests
 ADD ngrok.yml /root/ngrok.yml
 ADD entrypoint.sh ./entrypoint.sh
 RUN chmod 777 entrypoint.sh
